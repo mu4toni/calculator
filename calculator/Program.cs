@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,7 +32,7 @@ namespace calculator
                 Console.WriteLine("Введите 2 числа");
                 int a = Convert.ToInt32(Console.ReadLine());
                 int b = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Выберите операцию: 1. сложение, 2 вычитание, 3 умножения, 4 деление");
+                Console.WriteLine("1. сложение, 2 вычитание, 3 умножения, 4 деление");
                 int tip = Convert.ToInt32(Console.ReadLine());
                 if (tip == 1)
                 {
