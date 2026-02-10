@@ -8,9 +8,9 @@ namespace calculator
 {
     internal class Program
     {
-        s static void Main(string[] args)
+        static void Main(string[] args)
         {
-            static int add(int x, int y)
+            static int plus(int x, int y)
             {
                 return (x + y);
             }
@@ -33,20 +33,20 @@ namespace calculator
                 int a = Convert.ToInt32(Console.ReadLine());
                 int b = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Выберите операцию: 1. сложение, 2 вычитание, 3 умножения, 4 деление");
-                int op = Convert.ToInt32(Console.ReadLine());
-                if (op == 1)
+                int tip = Convert.ToInt32(Console.ReadLine());
+                if (tip == 1)
                 {
-                    Console.WriteLine(add(a, b));
+                    Console.WriteLine(plus(a, b));
                 }
-                else if (op == 2)
+                else if (tip == 2)
                 {
                     Console.WriteLine(minus(a, b));
                 }
-                else if (op == 3)
+                else if (tip == 3)
                 {
                     Console.WriteLine(umnoz(a, b));
                 }
-                else if (op == 4)
+                else if (tip == 4)
                 {
                     Console.WriteLine(deli(a, b));
                 }
